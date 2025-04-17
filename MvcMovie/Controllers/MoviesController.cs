@@ -6,7 +6,7 @@ namespace MvcMovie.Controllers
     public class MoviesController : Controller
     {
         // GET: Movies/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -26,7 +26,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             var listMovies = new List<Movie>();
 
