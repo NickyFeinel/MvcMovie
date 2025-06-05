@@ -40,11 +40,12 @@ namespace MvcMovie.Controllers
             };
             listMovies.Add(movie1);
 
+
             var movie2 = new Movie
             {
                 Genre = "Terror",
                 Id = 2,
-                Price = 1,
+                Price = 5,
                 ReleaseDate = DateTime.Now,
                 Title = "La noche del terror II"
             };
